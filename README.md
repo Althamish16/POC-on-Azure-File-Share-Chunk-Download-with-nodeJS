@@ -13,7 +13,7 @@ This project demonstrates how to download files in chunks from Azure File Share 
 Clone the repository and install dependencies:
 
 ```bash
-git clone https://github.com/Althamish16/POC-on-Azure-File-Share-Chunk-Download-with-nodeJS.git
+git clone https://github.com/Althamish16/POC-on-Azure-File-Share-Chunk-Download-with-nodeJS
 cd POC-on-Azure-File-Share-Chunk-Download-with-nodeJS
 npm install
 ```
@@ -27,9 +27,9 @@ npm install
    AZURE_SHARE_NAME=<your_share_name>
    ```
 
-   Replace `<your_storage_account_name>`, `<your_storage_account_key>` and `<your_share_name>` with your Azure Storage account details and File Share details.
+   Replace `<your_storage_account_name>`, `<your_storage_account_key>`, and `<your_share_name>` with your Azure Storage account details and File Share details.
 
-2. Update the file path and file name with extension in `index.js` to match your Azure file details.
+2. Update the file_path and file_name with an extension in `index.js` to match your Azure file details.
 
 ## Running the Project
 
